@@ -1,0 +1,40 @@
+.title {
+	text-align: center;
+}
+
+.colors {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	gap: 15px;
+	max-width: 1000px;
+}
+
+.color-swatch {
+	width: 250px;
+	height: 150px;
+}
+.card-fon.is-active{
+transform: perspective(400px) rotateX(10deg);
+transition: transform 250ms linear;
+}
+.card-fon {
+	padding: 5px;
+	box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+	border-radius: 4px;
+	background-color: #ffffff;
+}
+
+.color-text {
+	font-size: 15px;
+	font-weight: 700;
+
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+	text-align: center;
+}
